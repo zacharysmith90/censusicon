@@ -1,0 +1,104 @@
+div.content-container {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 15px solid #b30000;
+    background-color: #fef0d9;
+}
+
+body {
+    background-color: #FF7152;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Inria Serif', serif;
+}
+
+h3 {
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.headers {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+}
+
+.byline {
+    font-family: 'Inria Serif', serif;
+    font-style: italic;
+}
+
+.header-img {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Inria Serif', serif;
+}
+
+.header-img img {
+    max-width: 800px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+figcaption .credit {
+    color: #A9A9A9;
+}
+
+body>div>div.lower-content>div>div.img-child>figcaption {
+    max-width: 200px;
+}
+
+div.parent {
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Inria Serif', serif;
+}
+
+div.parent .img-child img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+div.parent .img-child, div.parent .text-child {
+    flex-basis: 50%;
+}
+
+.lower-content {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Inria Serif', serif;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+footer {
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: 'Inria Serif', serif;
+    color: #A9A9A9;
+    font-size: 15px;
+}
