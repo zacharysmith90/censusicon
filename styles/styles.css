@@ -94,6 +94,20 @@ hr {
     border: 1px solid black;
 }
 
+.census-link {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.sources {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
 footer {
     margin-right: 10%;
     margin-left: 50%;
